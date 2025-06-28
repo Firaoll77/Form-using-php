@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form_page</title>
+    <link rel="stylesheet" href="form.css">
 </head>
 <body>
     <form action="insert.php" method="post">
-        <table>
+        <table class="form-table">
             <tr>
                 <td>
+                    <h2>Register Form</h2>
                     <label>Name:</label>
                     <input type="text" name="name">
                 </td>
@@ -32,24 +34,15 @@
             <input type="radio" name=" gender" value="F"> Female
                 </td>
             </tr>
+                    <tr>
+                        <td>
+                        <label>Phone-No</label>
+                        <input type="phone" name="phone" placeholder="9** - 654 - 321">
+                        </td>
+                    </tr>
             <tr>
                 <td>
-                    <label>Phone Code:</label>
-                    <select name="phoneCode" >
-                        <option selected hidden value="">Select Phone Code</option>
-                        <option value="251">251</option>
-                        <option value="252">252</option>
-                        <option value="253">253</option>
-                        <option value="254">254</ption>
-                        <option value="255">255</option>
-                        <option value="256">256</option>
-                    </select>
-                    <input type="phone" name="phone">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <input type="submit" placeholder="Submit">
+                    <button type="submit">Submit</button>
                 </td>
             </tr>
         </table>
