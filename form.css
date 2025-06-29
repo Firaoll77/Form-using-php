@@ -9,7 +9,7 @@ body {
     justify-self: center;
     align-items: center;
     min-height: 100vh;
-    background: linear-gradient(to right, #e0e0e0, #435839e1);
+    background: linear-gradient(to right, #e0e0e0, rgba(41, 42, 127, 0.779));
     color: #333;
 }
 
@@ -18,8 +18,7 @@ form {
 }
 
 .form-table {
-    width: 100%;
-    max-width: 450px;
+    box-sizing: border-box;
     padding: 30px;
     background: #fff;
     border-radius: 10px;
@@ -27,26 +26,35 @@ form {
     font-size: 17px;
 }
 
+
 button {
+    box-sizing: border-box;
     width:100%;
     padding: 10px;
-    background: #435839e1;
+    background: #b86c28;
     border-radius: 6px;
     border: none;
     cursor: pointer;
     font-size: 14px;
     color: #fff;
-    font-weight: 500;
-    margin-bottom: 0px;
+    font-weight:500;
     transition: 0.5s;
+}
+
+button:hover {
+    background-color: #516a45e1;
 }
 
 input{
     padding: 12px;
     background:#e9e9e9;
     border-radius: 6px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: in;
     border:none;
     font-size: 16px;
+    font-weight: 400;
     color:#000000;
     margin-bottom: 20px;
 }
