@@ -34,10 +34,7 @@ This project is a simple PHP application that allows users to register by provid
 ## Future Improvements
 
 - **Input Validation**: Implement server-side validation to ensure that user inputs meet specific criteria (e.g., valid email format, password strength).
-- **User  Feedback**: Provide user-friendly error messages and success notifications to enhance the user experience.
 - **Password Reset Functionality**: Add a feature that allows users to reset their passwords if they forget them.
-- **Email Verification**: Implement email verification to confirm the user's email address before allowing them to log in.
-- **User  Login System**: Create a login system that allows users to log in with their registered email and password.
 - **Session Management**: Use PHP sessions to manage user sessions and maintain login states.
 - **Responsive Design**: Consider using CSS frameworks like Bootstrap to make your registration form responsive and visually appealing.
 - **Security Enhancements**: Implement measures to protect against SQL injection, XSS, and CSRF attacks. Use prepared statements for all database interactions.
