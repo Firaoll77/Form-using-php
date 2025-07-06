@@ -3,6 +3,7 @@ $name = $_POST["name"];
 $email = $_POST["email"];
 $password = $_POST["password"];
 $gender = $_POST["gender"];
+$City = $_POST["City"];
 $phoneCode = $_POST["phoneCode"];
 $phone = $_POST["phone"];
 
