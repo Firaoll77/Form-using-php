@@ -7,7 +7,7 @@ $City = $_POST["City"];
 $phoneCode = $_POST["phoneCode"];
 $phone = $_POST["phone"];
 
-if (!empty($name) && !empty($email) && !empty($password) && !empty($gender) && !empty($phoneCode) && !empty($phone)) {
+if (!empty($name) && !empty($email) && !empty($password) && !empty($gender) && !empty($phoneCode) && !empty($phone)&& !empty($City)) {
     $host = "localhost";
     $dbUsername = "root";
     $dbPassword = "";
