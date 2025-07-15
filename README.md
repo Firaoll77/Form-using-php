@@ -1,6 +1,6 @@
 # Form-using-php
 
-This project is a simple PHP application that allows users to register by providing their name, email, password, gender, phone code, and phone number. The data is stored in a MySQL database.
+A Simple PHP application that allows users to register by providing their name, email, password, gender, phone code, and phone number. The data is stored in a MySQL database.
 
 ## Features
 
