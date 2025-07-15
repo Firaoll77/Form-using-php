@@ -32,5 +32,4 @@ This project is a simple PHP application that allows users to register by provid
    - In your web browser, navigate to `http://localhost/user_registration/insert.php` (or the name of your main PHP file) to access your registration form.
 
 ## Future Improvements
-- **Responsive Design**: Consider using CSS frameworks like Bootstrap to make your registration form responsive and visually appealing.
 - **Security Enhancements**: Implement measures to protect against SQL injection, XSS, and CSRF attacks. Use prepared statements for all database interactions.
