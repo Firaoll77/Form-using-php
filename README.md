@@ -32,4 +32,3 @@ This project is a simple PHP application that allows users to register by provid
    - In your web browser, navigate to `http://localhost/user_registration/insert.php` (or the name of your main PHP file) to access your registration form.
 
 ## Future Improvements
-- **Security Enhancements**: Implement measures to protect against SQL injection, XSS, and CSRF attacks. Use prepared statements for all database interactions.
