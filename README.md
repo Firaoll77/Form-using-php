@@ -33,7 +33,6 @@ This project is a simple PHP application that allows users to register by provid
 
 ## Future Improvements
 
-- **Password Reset Functionality**: Add a feature that allows users to reset their passwords if they forget them.
 - **Session Management**: Use PHP sessions to manage user sessions and maintain login states.
 - **Responsive Design**: Consider using CSS frameworks like Bootstrap to make your registration form responsive and visually appealing.
 - **Security Enhancements**: Implement measures to protect against SQL injection, XSS, and CSRF attacks. Use prepared statements for all database interactions.
